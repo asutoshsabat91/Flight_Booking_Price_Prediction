@@ -1,107 +1,136 @@
-<!-- README.md Start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Synergy.ltd Internship Project</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Fira+Code&display=swap" rel="stylesheet">
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
 
-<style>
-  .container {
-    font-family: 'Fira Code', monospace;
-    padding: 20px;
-    background: #f8f9fa;
-  }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
 
-  .title {
-    font-family: 'Rubik', sans-serif;
-    font-size: 36px;
-    text-align: center;
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-bottom: 10px;
-  }
+    .header img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
 
-  .subtitle {
-    font-size: 18px;
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
-  }
+    h1 {
+      color: #2c3e50;
+    }
 
-  .project-card {
-    background: white;
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
-  }
+    .section {
+      margin-bottom: 40px;
+    }
 
-  .project-card:hover {
-    transform: scale(1.02);
-  }
+    .section img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
 
-  .project-title {
-    font-size: 24px;
-    color: #ff4b2b;
-    margin-bottom: 10px;
-  }
+    .highlight {
+      background: #eaf6ff;
+      padding: 10px 20px;
+      border-left: 4px solid #3498db;
+      border-radius: 5px;
+      margin: 20px 0;
+      font-style: italic;
+    }
 
-  .project-img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 10px;
-  }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9em;
+    }
 
-  .badges {
-    margin-top: 10px;
-  }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
 
-  .badges img {
-    margin-right: 10px;
-  }
-
-  .footer {
-    text-align: center;
-    font-size: 14px;
-    color: #777;
-    margin-top: 40px;
-  }
-</style>
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
 
 <div class="container">
+  <div class="header">
+    <img src="https://via.placeholder.com/120" alt="Synergy Logo">
+    <h1>Internship Project @ Synergy.ltd</h1>
+    <p><strong>Developed During My 2nd Year of College</strong></p>
+  </div>
 
-  <div class="title">🚀 ML Internship @ Synergy</div>
-  <div class="subtitle">Simple projects, real datasets, clean models — and a lot of coffee ☕</div>
-
-  <!-- Project 1 -->
-  <div class="project-card">
-    <div class="project-title">📊 Credit Score Classification</div>
-    <img class="project-img" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*V7mGxbApHHUPYHPOh-zYKw.png" alt="Credit Score Classification">
-    <p>A classification model trained on user financial data to categorize creditworthiness into Good, Average, or Poor. Focused on interpretability and balanced accuracy.</p>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/Python-ffdd54?style=for-the-badge&logo=python&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Scikit--Learn-f7931e?style=for-the-badge&logo=scikit-learn&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <div class="section">
+    <h2>🌟 Project Overview</h2>
+    <p>
+      During my summer internship at <strong>Synergy.ltd</strong>, I developed a real-world application focused on solving [Insert Problem/Domain]. 
+      The experience helped me grow both technically and professionally.
+    </p>
+    <div class="highlight">
+      🚀 Tech Stack Used: HTML, CSS, JavaScript, Python (Flask), PostgreSQL
     </div>
+    <img src="https://via.placeholder.com/800x300?text=Dashboard+Preview" alt="Project Preview">
   </div>
 
-  <!-- Project 2 -->
-  <div class="project-card">
-    <div class="project-title">✈️ Flight Price Prediction</div>
-    <img class="project-img" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*p3hLwbwRxke4A-MUXNl0hg.png" alt="Flight Price Prediction">
-    <p>Regression-based ML model predicting flight ticket prices using factors like airline, duration, stops, and departure time. Smart price forecasting, smarter travel!</p>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Matplotlib-206b94?style=for-the-badge&logo=matplotlib&logoColor=white"/>
-      <img src="https://img.shields.io/badge/XGBoost-e68500?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAi..."/>
-    </div>
+  <div class="section">
+    <h2>🔍 Features Implemented</h2>
+    <ul>
+      <li>📊 Dynamic dashboard for analytics</li>
+      <li>🔐 User authentication with session management</li>
+      <li>🧠 Machine Learning model integration</li>
+      <li>📦 RESTful API integration with front-end</li>
+    </ul>
+    <img src="https://via.placeholder.com/800x300?text=Feature+Screens" alt="Feature Images">
   </div>
 
-  <div class="footer">
-    💼 Built during my internship @ Synergy | 2nd Year BTech CSE Student <br>
-    📬 Contact: <a href="mailto:asutoshsabat91@gmail.com">asutoshsabat91@gmail.com</a>
+  <div class="section">
+    <h2>💡 Key Learnings</h2>
+    <p>
+      This internship taught me how to work in a collaborative team, meet deadlines, and build scalable code in production environments.
+      I also got familiar with tools like Git, Agile methodology, and CI/CD pipelines.
+    </p>
+    <img src="https://via.placeholder.com/800x300?text=Team+Workflow" alt="Team Workflow">
   </div>
 
+  <div class="section">
+    <h2>📂 Repository Structure</h2>
+    <pre>
+    /project-root
+    ├── frontend/
+    ├── backend/
+    ├── models/
+    ├── static/
+    └── README.html
+    </pre>
+  </div>
+
+  <footer>
+    Made with ❤️ during my internship at <a href="#">Synergy.ltd</a> | Connect on <a href="#">LinkedIn</a>
+  </footer>
 </div>
+
+</body>
+</html>
