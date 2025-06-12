@@ -1,2 +1,2 @@
-# akk
-my first repository
+###Machine Learning Projects###
+##Synergy##
